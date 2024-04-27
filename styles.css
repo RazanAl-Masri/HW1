@@ -1,0 +1,141 @@
+/* Reset CSS */
+html, body, header, main, footer {
+    margin: 0;
+    padding: 0;
+}
+
+/* Typography */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333; /* Dominant text color */
+    font-size: 16px; /* Adjust as needed */
+    line-height: 1.5; /* Adjust as needed */
+}
+
+h1, h2, h3 {
+    font-weight: bold; /* As per the design */
+}
+
+/* Header */
+header {
+    background-color: #fff; /* Header background color */
+    padding: 20px;
+    text-align: center;
+}
+
+#header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header-top ul {
+    list-style: none;
+    padding: 0;
+}
+
+#header-top ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+#header-top ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px; /* Adjust as needed */
+}
+
+/* Contact Information */
+#contact-information ul {
+    list-style: none;
+    padding: 0;
+}
+
+#contact-information ul li {
+    margin-top: 10px;
+}
+
+#contact-information ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Logo */
+#logo {
+    margin-bottom: 20px;
+}
+
+#logo a {
+    text-decoration: none;
+    color: #333;
+    font-size: 24px; /* Adjust as needed */
+}
+
+/* Header Text */
+#header-text {
+    margin-bottom: 20px;
+}
+
+/* Header Button */
+#header-button button {
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Main */
+main {
+    padding: 20px;
+}
+
+/* Text Menu */
+#text-menu {
+    margin-bottom: 40px;
+}
+
+#text-menu h3 {
+    margin-bottom: 10px;
+}
+
+/* Our Team */
+#our-team {
+    margin-bottom: 40px;
+}
+
+#team-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+#team-list ul li {
+    margin-bottom: 20px;
+}
+
+#team-list ul li h3 {
+    margin-top: 10px;
+}
+
+#team-list ul li img {
+    width: 100px; /* Adjust as per the layout */
+    height: auto;
+}
+
+/* Footer */
+footer {
+    background-color: #f8f9fa; /* Footer background color */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Footer Text */
+#footer-text {
+    color: #333; /* Footer text color */
+}
+
+#footer-text a {
+    text-decoration: none;
+    color: #333;
+}
